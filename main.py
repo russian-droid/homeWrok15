@@ -10,3 +10,14 @@ def bool_to_word(boolean):
     else:
         x = "No"
     return x
+
+#------------someone else's solution
+def bool_to_word(bool):
+    return "Yes" if bool else "No"
+
+#------------someone else's solution
+def bool_to_word(bool):
+    if bool:
+        return 'Yes'
+    else:
+        return 'No'
