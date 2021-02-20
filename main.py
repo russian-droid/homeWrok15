@@ -5,4 +5,8 @@ Complete the method that takes a boolean value and return a "Yes" string for tru
 '''
 
 def bool_to_word(boolean):
-    # TODO
+    if bool(boolean) == True:
+        x = "Yes"
+    else:
+        x = "No"
+    return x
